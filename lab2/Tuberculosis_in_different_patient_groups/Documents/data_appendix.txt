@@ -1,0 +1,49 @@
+Data appendix dla przetworzonego pliku: processed_data.csv
+
+Head of data:
+  iso2  year sex     age  cases
+0   AD  1996   m   0--14      0
+1   AD  1996   m  15--24      0
+2   AD  1996   m  25--34      0
+3   AD  1996   m  35--44      4
+4   AD  1996   m  45--54      1
+
+Opis zmiennych numerycznych:
+               year         cases
+count  35750.000000  35750.000000
+mean    2002.013259    609.378881
+std        4.348898   3278.187960
+min     1980.000000      0.000000
+25%     1999.000000      4.000000
+50%     2002.000000     36.000000
+75%     2006.000000    245.000000
+max     2008.000000  90498.000000
+
+Opis zmiennych nienumerycznych:
+         iso2    sex     age
+count   35552  35750   35750
+unique    212      2      10
+top        CA      m  45--54
+freq      420  17920    4822
+
+Opis poszczególnych zmiennych:
+	- iso2: 
+		* kod iso2
+		* w oryginalnym pliku to ta sama zmienna
+		* iloœæ: 35750
+	- year: 
+		* rok danej obserwacji
+		* w oryginalnym pliku to ta sama zmienna
+		* iloœæ: 35750
+	- sex: 
+		* p³eæ
+		* w oryginalnym pliku p³eæ by³a zakodowana w nazwach poszczególnych kolumn
+		* iloœæ: 35750
+	- age: 
+		* wiek danej grupy osób
+		* w oryginalnym pliku wiek by³ zakodowany w nazwach poszczególnych kolumn razem z p³ci¹
+		* iloœæ: 35750
+	- cases: 
+		* iloœæ przypadków dla danej obserwacji
+		* dane te zosta³y przepisane z oryginalnego pliku pomijaj¹c puste komórki
+		* iloœæ: 35750

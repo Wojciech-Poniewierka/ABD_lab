@@ -1,0 +1,14 @@
+Plik oryginalny tb.csv zawiera informacje o gruźlicy w różnych grupach pacjentów.
+Plik został pobrany dnia 8 X 2021 r. z platformy GitHub, link do pobrania to:
+https://github.com/KAIR-ISZ/public_lectures/blob/master/Analiza%20i%20Bazy%20Danych%202021/Lab%202/Datasets/tb.csv
+ 
+Zmienne (kolumny) zawarte w pliku to:
+- kod iso2
+- rok 
+- ogólna ilość przypadków
+- zbiór kolumn reprezentujący ilość przypadków dla konkretnej płci w konkretnym przedziale wiekowym
+	* Nazwa każdej z tych zmiennych zaczyna się od "new_sp_"
+	* Następnie występuje literka "m" (male) lub "f" (female)
+	* Na końcu znajdują się dwie do czterech cyfr oznaczających zakres wiekowy
+
+Oryginalny plik zawiera dużą ilość pustych komórek.
